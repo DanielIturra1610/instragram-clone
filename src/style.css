@@ -144,7 +144,7 @@ a {
     width: 90%;
     margin: 20px auto;
     flex-wrap: wrap;
-    text-align: center;
+    justify-content: center;
     max-width: 768px;
     font-size: 1.4rem;
 }
@@ -185,7 +185,7 @@ a {
     .main--carousel {
         position: relative;
         display: block;
-        background-image: url(img/teleInsta.png);
+        background-image: url(./img/teleInsta.png);
         background-size: cover;
         width: 400px;
         height: 600px;
@@ -193,7 +193,7 @@ a {
 
     .main--carousel img {
         position: absolute;
-        right: 15px;
+        right: 12px;
         bottom: 56px;
         height: 87%;
     }
